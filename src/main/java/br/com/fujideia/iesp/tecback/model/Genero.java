@@ -10,10 +10,9 @@ import lombok.Setter;
 @Getter
 @Setter
 @Entity
-public class Filme {
+public class Genero {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
-    private String titulo;
-    private String descricao;
+    private String nome;
 }
